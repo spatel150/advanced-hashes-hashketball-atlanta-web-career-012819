@@ -163,7 +163,12 @@ def team_names
   return teams
 end
 
-def 
+def player_numbers(team_name)
+  jersey_number = []
+  game_hash.each do |locate, team_data|
+    if team_data[:team_name] == team_name
+      team_data.each do |key, value|
+        if key == 
 
 
 
