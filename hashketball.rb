@@ -200,7 +200,8 @@ def big_shoe_rebounds
     team_data.each do |key, value|
       if key == :players
         value.each do |player, stats|
-          if 
+          if stats[:shoes] > shoe_size
+            bi
 
 
 
