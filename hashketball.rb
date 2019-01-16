@@ -195,6 +195,7 @@ end
 
 def big_shoe_rebounds
   number_rebound = 0
+  shoe_size = 0
   
 
 
