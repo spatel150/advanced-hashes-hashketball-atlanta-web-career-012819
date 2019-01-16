@@ -170,7 +170,7 @@ def player_numbers(team_name)
       team_data.each do |key, value|
         if key == :players
           value.each do |player, stats|
-            jersey_number << team_data[:number]
+            jersey_number << stats[:number]
           end
         end
       end
