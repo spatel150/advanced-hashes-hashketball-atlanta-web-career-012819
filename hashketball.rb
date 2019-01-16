@@ -201,8 +201,8 @@ def big_shoe_rebounds
       if key == :players
         value.each do |player, stats|
           if stats[:shoes] > shoe_size
-            shoe_size == stats[:shoe]
-            num_rebound == stats[:rebounds]
+            shoe_size = stats[:shoe]
+            num_rebound = stats[:rebounds]
           end
         end
       end
