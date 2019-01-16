@@ -179,7 +179,11 @@ def player_numbers(team_name)
   return jersey_number
 end
 
-
+def player_stats(player_name)
+  player_hash = {}
+  game_hash.each do |locate, team_data|
+    if team_data[:team_name] == player_name
+      
 
 
 
