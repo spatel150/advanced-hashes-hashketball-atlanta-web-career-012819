@@ -184,7 +184,7 @@ def player_stats(player_name)
       team_data.each do |key, value|
         if key == :players
           value.each do |player, stats|
-            if player = player_name
+            if player == player_name
               return stats
           end
         end
