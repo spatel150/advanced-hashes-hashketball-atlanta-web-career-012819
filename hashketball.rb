@@ -203,9 +203,13 @@ def big_shoe_rebounds
           if stats[:shoes] > shoe_size
             shoe_size == stats[:shoe]
             num_rebound == stats[:rebounds]
-              return num_rebound
-            end
           end
+        end
+      end
+    end
+  end
+  return num_rebound
+end
 
 
 
